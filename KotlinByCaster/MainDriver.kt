@@ -170,6 +170,8 @@ fun main() {
 
     /** adding-static-methods-to-kotlin-enums */
 
+    /** kotlin-when-statement-exhaustive-vs-non-exhaustive */
+
 }
 
 class Person(val name: String)
