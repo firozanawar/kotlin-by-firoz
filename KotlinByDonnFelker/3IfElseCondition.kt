@@ -52,6 +52,7 @@ fun main() {
 
     var a1 = Person("Donn")
     var b1 = Person("Donn")
+    println(a1 == b1)
     println(a1 === b1)   // false  // === referencial equalities
     println(a1 !== b1)  // true   // === referencial in-equalities
 }

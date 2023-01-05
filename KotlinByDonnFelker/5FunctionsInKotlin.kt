@@ -24,6 +24,10 @@ fun main() {
 
     printUserDetails(12)
     printUserDetails(12,"Donn")
+
+    // Function name as variable
+    val fn = ::defaultParamFun
+    fn("Halo")
 }
 
 // Doesn't return anything so Unit.
@@ -83,3 +87,5 @@ fun printUserDetails(age:Int){
 fun printUserDetails(age:Int,name: String){
     println("Age is $age and name is $name")
 }
+
+

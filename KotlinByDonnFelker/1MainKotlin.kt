@@ -46,4 +46,10 @@ fun main(){
     // Boolean
     val isFlagTrue: Boolean = false
     println(isFlagTrue.not())
+
+    val number = 50
+    val result = number in 1..50   // last digit considered
+    val result1 = number in 1 until 50    // last digit skipped/not considered
+    println(result)
+    println(result1)
 }

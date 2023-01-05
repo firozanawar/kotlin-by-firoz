@@ -10,4 +10,12 @@ fun main(){
         "anwar" -> println("Its anwar")
         else -> println("Its anwar")
     }
+
+    // When as a expression
+    val result  = when(name){
+        "firoz" -> "Its firoz"
+        "anwar" -> "Its anwar"
+        else -> "Its anwar"
+    }
+    println(result)
 }
