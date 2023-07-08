@@ -1,6 +1,6 @@
 package KotlinByDonnFelker
 
-fun main(){
+fun main() {
 
     var name = "Firoz Anwar"  // Mutable variable
     var fullNameAddress = "My name is Firoz Anwar \nMadapur Chawni \nGhosi Mau"
@@ -37,4 +37,6 @@ fun main(){
     // Boolean
     println("".isBlank())
     println("".isBlank().not())
+
+    // Try REPL to write and run program directly.
 }

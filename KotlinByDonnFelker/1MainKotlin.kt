@@ -1,6 +1,6 @@
 package KotlinByDonnFelker
 
-fun main(){
+fun main() {
     println("Hello World")
 
     // Variables // Use var or val
