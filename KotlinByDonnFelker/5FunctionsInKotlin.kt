@@ -28,6 +28,9 @@ fun main() {
     // Function name as variable
     val fn = ::defaultParamFun
     fn("Halo")
+
+    var result = max(4, 6)
+    println("Max value is $result")
 }
 
 // Doesn't return anything so Unit.
@@ -86,6 +89,13 @@ fun printUserDetails(age:Int){
 }
 fun printUserDetails(age:Int,name: String){
     println("Age is $age and name is $name")
+}
+
+fun max(a: Int, b: Int): Int = if (a > b) {
+    a
+} else {
+    b
+    48
 }
 
 
